@@ -123,11 +123,12 @@ body, html{
 .mask{
 	display: none;
 }
+
 /*about page*/
 .about{
 	width:70%;
 	margin:0 auto;
-	margin-top: -1.8%;
+	margin-top: -4%;
 }
 .about h1{
 	margin: 0;
@@ -138,93 +139,95 @@ body, html{
 	font-weight: 400;
 	letter-spacing: 1px;
 	text-align: center;
-	-webkit-animation-name: bounce;
-  	animation-name: bounce;
-  	-webkit-transform-origin: center bottom;
-  	transform-origin: center bottom;
+
 }
-/*@keyframes slidein {
+@keyframes show {
   from {
-    margin-left: 100%;
-    width: 300%; 
+    opacity: 0;
   }
 
   to {
-    margin-left: 0%;
-    width: 100%;
+    opacity: 1;
   }
-}*/
+}
 .about p{
 	color: #fff;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 300;
 	line-height: 40px;
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 7%;
+	margin-bottom: 3%;
 	text-align: center;
-	-webkit-animation-name: bounce;
-  	animation-name: bounce;
-  	-webkit-transform-origin: center bottom;
-  	transform-origin: center bottom;
+	-webkit-animation-name: show;
+  	animation-name: show;
+  	animation-duration: 5s;
 }
 .about h3{
+	/*opacity: 0;*/
 	color: #fff;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 300;
 	line-height: 40px;
-	margin-bottom: 50px;
+	margin-bottom: 3%;
 	text-align: center;
-	-webkit-animation-name: bounce;
-  	animation-name: bounce;
-  	-webkit-transform-origin: center bottom;
-  	transform-origin: center bottom;
+	-webkit-animation-name: show;
+  	animation-name: show;
+  	animation-duration: 9s;
+  	/*animation-delay: 1s;*/
 }
 .about ul{
 	list-style: none;
-	margin:0;
-	padding: 0;
+	/*margin:0;
+	padding: 0;*/
 	cursor: pointer;
 }
 .about ul li:hover{
 	color:#fff;
 	border:1px solid #fff;
-	font-size: 20px;
+	font-size: 19px;
 	transition: all .4s ease-in-out;
 }
 .about .first{
+	/*opacity: 0;*/
 	width: 90%;
 	margin:0 auto;
-	margin-bottom: 50px;
-	height: 72px;
+	margin-bottom:2%;
+	height: 65px;
+	-webkit-animation-name: show;
+  	animation-name: show;
+  	animation-duration: 13s;
+  	/*animation-delay: 2s;*/
 }
 .about .first li{
 	float: left;
-	margin: 0 40px;
+	margin: 0 3.2%;
 	text-align: center;
 	color:#c0afcf;
-	line-height: 70px;
+	line-height: 60px;
 	vertical-align: middle;
 	width:13%;
-	height: 70px;
 	border-radius: 50%;
 	border:1px solid #c0afcf;
 	font-size: 18px;
 
 }
 .about .second{
-	width: 54%;
+	width: 55%;
 	margin:0 auto;
-
+	/*opacity: 0;*/
+	-webkit-animation-name: show;
+  	animation-name: show;
+  	animation-duration: 13s;
+  	/*animation-delay: 2s;*/
 }
 .about .second li{
 	float: left;
-	width:21.4%;
-	margin: 0 40px;
+	width:22%;
+	margin: 0 5%;
 	text-align: center;
 	color:#c0afcf;
-	line-height: 70px;
+	line-height: 60px;
 	vertical-align: middle;
-	height: 70px;
 	border-radius: 50%;
 	border:1px solid #c0afcf;
 	font-size: 18px;
