@@ -1,8 +1,9 @@
 body, html{
 	margin:0;
-	font-family: 'roboto';
+	/*font-family: 'roboto';*/
 	padding: 0;
 	height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 .home_wraper{
 	width: 100%;
