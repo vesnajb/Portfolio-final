@@ -150,11 +150,11 @@ body, html{
 }
 /*mask*/
 .mask{
-	width:540px;
-	height: 600px;
+	width:60%;
+	height: 99%;
 	position: absolute;
-	top:10px;
-	left:300px;
+	top:0;
+	left:15%;
 }
 .mask img{
 	width: 100%;
@@ -164,14 +164,14 @@ body, html{
   	animation-duration: 1s;
 }
 .mask h2{
-	font-size: 90px;
-	font-weight: 300;
+	font-size: 100px;
+	font-weight: 100;
 	color: #d4cdd7;
-	letter-spacing: 5px;
+	letter-spacing: 7px;
 	position: absolute;
 	float: left;
-	right: -210px;
-	top:150px;
+	right: -3%;
+	top:32%;
 	animation-name: show;
   	animation-duration: 2s;
 }
